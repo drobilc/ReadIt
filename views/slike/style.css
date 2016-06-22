@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.post {
+  height: 100px;
+  width: 800px;
+  margin: 0 auto;
+  border-bottom: 1px solid black;
+  padding: 20px;
+  overflow: hidden;
+  font-family: 'Georgia';
+}
+
+.title {
+  color: black;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.author {
+  display: block;
+  color: rgb(115, 115, 115);
+  text-transform: lowercase;
+}
+
+.author::before {
+  content: "- ";
+}

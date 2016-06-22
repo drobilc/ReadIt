@@ -1,0 +1,9 @@
+html
+  head
+    title!= "Download e-book"
+  link(rel="stylesheet", href="../slike/book.css")
+  body
+    div#download
+      a.button(href="/download/" + id + ".pdf")!= "PDF"
+      a.button(href="/download/" + id + ".epub")!= "EPUB"
+      a.button(href="/download/" + id + ".mobi")!= "MOBI"

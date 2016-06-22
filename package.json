@@ -1,0 +1,18 @@
+{
+  "name": "ReadIt",
+  "version": "0.2.7",
+  "main": "server.js",
+  "description": "Reddit Writing prompts book creator.",
+  "author": "Niki Bizjak <drobilc@gmail.com>",
+  "dependencies" : {
+    "express" : "*",
+    "jade" : "*",
+    "bodyParser" : "*",
+    "request" : "*",
+    "Snoocore" : "*",
+    "epubGenerator" : "*",
+    "dot" : "*",
+    "phantom" : "*",
+    "html-pdf" : "*"
+  }
+}

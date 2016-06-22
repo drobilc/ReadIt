@@ -1,0 +1,10 @@
+html
+  head
+    title!= "ReadIT"
+    link(rel="stylesheet", href="slike/style.css")
+  body
+    each podatek in podatki
+      div.post
+        a.title(href='/post/' + podatek.data.id)!= podatek.data.title
+        span.author!= podatek.data.author
+        //span.id!= podatek.data.id
